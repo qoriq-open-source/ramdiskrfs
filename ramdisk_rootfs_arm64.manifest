@@ -1,184 +1,79 @@
-PACKAGE NAME: base-files
-PACKAGE VERSION: 3.0.14
-LICENSE: GPLv2
-
-PACKAGE NAME: base-passwd
-PACKAGE VERSION: 3.5.29
-LICENSE: GPLv2+
-
-PACKAGE NAME: busybox
-PACKAGE VERSION: 1.23.2
-LICENSE: GPLv2 & bzip2
-
-PACKAGE NAME: busybox-hwclock
-PACKAGE VERSION: 1.23.2
-LICENSE: GPLv2 & bzip2
-
-PACKAGE NAME: busybox-syslog
-PACKAGE VERSION: 1.23.2
-LICENSE: GPLv2 & bzip2
-
-PACKAGE NAME: busybox-udhcpc
-PACKAGE VERSION: 1.23.2
-LICENSE: GPLv2 & bzip2
-
-PACKAGE NAME: glibc
-PACKAGE VERSION: linaro-2.20
-LICENSE: GPLv2 & LGPLv2.1
-
-PACKAGE NAME: init-ifupdown
-PACKAGE VERSION: 1.0
-LICENSE: GPLv2
-
-PACKAGE NAME: initscripts
-PACKAGE VERSION: 1.0
-LICENSE: GPLv2
-
-PACKAGE NAME: initscripts-functions
-PACKAGE VERSION: 1.0
-LICENSE: GPLv2
-
-PACKAGE NAME: libkmod
-PACKAGE VERSION: 21+gitAUTOINC+114ec87c85
-LICENSE: LGPL-2.1+
-
-PACKAGE NAME: lsb
-PACKAGE VERSION: 4.1
-LICENSE: GPLv2+
-
-PACKAGE NAME: lsbinitscripts
-PACKAGE VERSION: 9.64
-LICENSE: GPLv2
-
-PACKAGE NAME: modutils-initscripts
-PACKAGE VERSION: 1.0
-LICENSE: PD
-
-PACKAGE NAME: ncurses-libncursesw
-PACKAGE VERSION: 5.9
-LICENSE: MIT
-
-PACKAGE NAME: ncurses-libtinfo
-PACKAGE VERSION: 5.9
-LICENSE: MIT
-
-PACKAGE NAME: ncurses-terminfo-base
-PACKAGE VERSION: 5.9
-LICENSE: MIT
-
-PACKAGE NAME: netbase
-PACKAGE VERSION: 5.3
-LICENSE: GPLv2
-
-PACKAGE NAME: packagegroup-core-boot
-PACKAGE VERSION: 1.0
-LICENSE: MIT
-
-PACKAGE NAME: run-postinsts
-PACKAGE VERSION: 1.0
-LICENSE: MIT
-
-PACKAGE NAME: sysvinit
-PACKAGE VERSION: 2.88dsf
-LICENSE: GPLv2+
-
-PACKAGE NAME: sysvinit-inittab
-PACKAGE VERSION: 2.88dsf
-LICENSE: GPLv2
-
-PACKAGE NAME: sysvinit-pidof
-PACKAGE VERSION: 2.88dsf
-LICENSE: GPLv2+
-
-PACKAGE NAME: udev
-PACKAGE VERSION: 182
-LICENSE: GPLv2.0+
-
-PACKAGE NAME: udev-cache
-PACKAGE VERSION: 182
-LICENSE: GPLv2.0+ & LGPLv2.1+
-
-PACKAGE NAME: udev-extraconf
-PACKAGE VERSION: 1.1
-LICENSE: MIT
-
-PACKAGE NAME: update-alternatives-opkg
-PACKAGE VERSION: 0.1.8+gitAUTOINC+53274f0875
-LICENSE: GPLv2+
-
-PACKAGE NAME: update-rc.d
-PACKAGE VERSION: 0.7
-LICENSE: GPLv2+
-
-PACKAGE NAME: util-linux
-PACKAGE VERSION: 2.26.2
-LICENSE: GPLv2+ & LGPLv2.1+ & BSD
-
-PACKAGE NAME: util-linux-cfdisk
-PACKAGE VERSION: 2.26.2
-LICENSE: GPLv2+ & LGPLv2.1+ & BSD
-
-PACKAGE NAME: util-linux-fdisk
-PACKAGE VERSION: 2.26.2
-LICENSE: GPLv2+ & LGPLv2.1+ & BSD
-
-PACKAGE NAME: util-linux-getopt
-PACKAGE VERSION: 2.26.2
-LICENSE: GPLv2+ & LGPLv2.1+ & BSD
-
-PACKAGE NAME: util-linux-libblkid
-PACKAGE VERSION: 2.26.2
-LICENSE: GPLv2+ & LGPLv2.1+ & BSD
-
-PACKAGE NAME: util-linux-libfdisk
-PACKAGE VERSION: 2.26.2
-LICENSE: GPLv2+ & LGPLv2.1+ & BSD
-
-PACKAGE NAME: util-linux-libmount
-PACKAGE VERSION: 2.26.2
-LICENSE: GPLv2+ & LGPLv2.1+ & BSD
-
-PACKAGE NAME: util-linux-libsmartcols
-PACKAGE VERSION: 2.26.2
-LICENSE: GPLv2+ & LGPLv2.1+ & BSD
-
-PACKAGE NAME: util-linux-libuuid
-PACKAGE VERSION: 2.26.2
-LICENSE: GPLv2+ & LGPLv2.1+ & BSD
-
-PACKAGE NAME: util-linux-losetup
-PACKAGE VERSION: 2.26.2
-LICENSE: GPLv2+ & LGPLv2.1+ & BSD
-
-PACKAGE NAME: util-linux-mkfs
-PACKAGE VERSION: 2.26.2
-LICENSE: GPLv2+ & LGPLv2.1+ & BSD
-
-PACKAGE NAME: util-linux-mount
-PACKAGE VERSION: 2.26.2
-LICENSE: GPLv2+ & LGPLv2.1+ & BSD
-
-PACKAGE NAME: util-linux-readprofile
-PACKAGE VERSION: 2.26.2
-LICENSE: GPLv2+ & LGPLv2.1+ & BSD
-
-PACKAGE NAME: util-linux-sfdisk
-PACKAGE VERSION: 2.26.2
-LICENSE: GPLv2+ & LGPLv2.1+ & BSD
-
-PACKAGE NAME: util-linux-sulogin
-PACKAGE VERSION: 2.26.2
-LICENSE: GPLv2+ & LGPLv2.1+ & BSD
-
-PACKAGE NAME: util-linux-swaponoff
-PACKAGE VERSION: 2.26.2
-LICENSE: GPLv2+ & LGPLv2.1+ & BSD
-
-PACKAGE NAME: util-linux-umount
-PACKAGE VERSION: 2.26.2
-LICENSE: GPLv2+ & LGPLv2.1+ & BSD
-
-PACKAGE NAME: zlib
-PACKAGE VERSION: 1.2.8
-LICENSE: Zlib
-
+base-files ls2088ardb 3.0.14
+base-passwd aarch64 3.5.29
+bash aarch64 4.3.30
+busybox aarch64 1.23.2
+busybox-hwclock aarch64 1.23.2
+busybox-syslog aarch64 1.23.2
+busybox-udhcpc aarch64 1.23.2
+ca-certificates all 20150426
+cryptodev-qoriq-module ls2088ardb 1.8
+dosfstools aarch64 3.0.28
+e2fsprogs aarch64 1.42.9
+e2fsprogs-badblocks aarch64 1.42.9
+e2fsprogs-e2fsck aarch64 1.42.9
+e2fsprogs-mke2fs aarch64 1.42.9
+file aarch64 5.24
+init-ifupdown aarch64 1.0
+initscripts aarch64 1.0
+initscripts-functions aarch64 1.0
+kernel-4.1.35-rt41 ls2088ardb 4.1
+kernel-module-cryptodev ls2088ardb 1.8
+libblkid1 aarch64 2.26.2
+libc6 aarch64 linaro+2.20
+libcom-err2 aarch64 1.42.9
+libcrypto1.0.0 aarch64 1.0.2k
+libe2p2 aarch64 1.42.9
+libext2fs2 aarch64 1.42.9
+libfdisk1 aarch64 2.26.2
+libgmp10 aarch64 6.0.0
+libgnutls28 aarch64 3.3.17.1
+libkmod2 aarch64 21+git0+114ec87c85
+libmount1 aarch64 2.26.2
+libncursesw5 aarch64 5.9
+libpcre1 aarch64 8.37
+libsmartcols1 aarch64 2.26.2
+libss2 aarch64 1.42.9
+libtinfo5 aarch64 5.9
+libuuid1 aarch64 2.26.2
+libz1 aarch64 1.2.8
+lsb aarch64 4.1
+lsbinitscripts aarch64 9.64
+modutils-initscripts aarch64 1.0
+ncurses-terminfo-base aarch64 5.9
+net-tools aarch64 1.60+26
+netbase aarch64 5.3
+nettle aarch64 3.1.1
+openssh aarch64 7.1p1
+openssh-keygen aarch64 7.1p1
+openssh-scp aarch64 7.1p1
+openssh-ssh aarch64 7.1p1
+openssh-sshd aarch64 7.1p1
+openssl-qoriq-conf aarch64 1.0.2k
+packagegroup-core-boot ls2088ardb 1.0
+run-postinsts all 1.0
+shadow aarch64 4.2.1
+shadow-base aarch64 4.2.1
+shadow-securetty ls2088ardb 4.2.1
+sudo aarch64 1.8.14p3
+sysvinit aarch64 2.88dsf
+sysvinit-inittab ls2088ardb 2.88dsf
+sysvinit-pidof aarch64 2.88dsf
+udev aarch64 182
+udev-cache aarch64 182
+udev-extraconf aarch64 1.1
+update-alternatives-opkg aarch64 0.1.8+git0+53274f0875
+update-rc.d all 0.7
+util-linux aarch64 2.26.2
+util-linux-blkid aarch64 2.26.2
+util-linux-cfdisk aarch64 2.26.2
+util-linux-fdisk aarch64 2.26.2
+util-linux-getopt aarch64 2.26.2
+util-linux-losetup aarch64 2.26.2
+util-linux-mkfs aarch64 2.26.2
+util-linux-mount aarch64 2.26.2
+util-linux-readprofile aarch64 2.26.2
+util-linux-sfdisk aarch64 2.26.2
+util-linux-sulogin aarch64 2.26.2
+util-linux-swaponoff aarch64 2.26.2
+util-linux-umount aarch64 2.26.2
+wget aarch64 1.16.3
